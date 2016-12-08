@@ -1,0 +1,41 @@
+		
+
+		body{	/**/
+			background-color:#AB1D37;
+			color:gold;
+		}
+
+
+		h1,h2{	/**/
+			text-align:center;
+			border-bottom:3px solid gold;
+		}
+
+
+		ul{	/**/
+			list-style:none;
+			color:gold;
+		}
+
+
+		.comp{	/**/
+			background-color:blue;
+			float:left;
+		}
+
+
+		.XP{	/**/
+			background-color:red;
+			float:right;
+		}
+
+
+		.dip{	/**/
+			background-color:green;
+			float:top;
+		}
+
+		.loisirs{/**/
+			 background-color:yellow;
+			 float:bottom;
+		}

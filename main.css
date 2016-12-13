@@ -6,24 +6,34 @@
 		}
                 
                 /*All titles*/
-                h1{
+                h1{/*set size police*/
                     font-size: 72px;
+                    /*set border with 3 pixels and color*/
                     border-top: 3px solid gold;
                 }
 		h1,h2{	/*Center text*/
 			text-align:center;
-                        /*Shaping the border*/
+                        /*Set border with*/
 			border-bottom:3px solid gold;
+                        /*Set Police Type*/
                         font-family: 'Indie Flower', cursive;
 		}
                 /*personal infomation*/
                 .infoperso{
+                    /*Set width and height*/
                     width: 300px;
-                    height: 100px;
-                    border: 1px solid blue;
+                    height: 150px;
+                    /*Set border*/
+                    border: 3px solid gold;
+                    /*Set box size*/
                     box-sizing: border-box;
+                    /*Set shadow box*/
+                    box-shadow: 10px 10px 10px;
+                    /*move interior to the top*/
+                    padding-top: 35px;
                 }
                 .infoperso>ul{
+                    /*Set style list*/
                         list-style-type: none;
                     
                 }
@@ -43,33 +53,33 @@
                 /*Section Compétence*/
 		.comp{	/*Set color the background*/
 			
-                        /*Move to the left*/
-			float:left;
-                        width: 50%;
+                        /*Move to the right*/
+			float:right;
+                        width: 45%;
 		}
 
                 /*Section Experience*/
 		.XP{	/*Set color the background*/
 			
-                        /*Move to the right*/
+                        /*Move to the left*/
 			float:left;
-                        width: 50%;
+                        width: 45%;
 		}
                
 
                 /*Section Diplôme*/
 		.dip{	/*Set color the background*/
 			
-                        /*Move to the top*/
-			float:left;
-                        width: 50%;
+                        /*Move to the right*/
+			float:right;
+                        width: 45%;
 		}
                 /*Section Loisirs*/
 		.loi{/*Set color the background*/
                          
-                         /*Move to the bottom*/
+                         /*Move to the left*/
 			 float:left;
-                         width: 50%;
+                         width: 45%;
 		}
                 /*Navbar*/
                 ul{

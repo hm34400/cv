@@ -8,6 +8,7 @@
                 /*All titles*/
                 h1{
                     font-size: 72px;
+                    border-top: 3px solid gold;
                 }
 		h1,h2{	/*Center text*/
 			text-align:center;
@@ -15,11 +16,28 @@
 			border-bottom:3px solid gold;
                         font-family: 'Indie Flower', cursive;
 		}
+                /*personal infomation*/
+                .infoperso{
+                    width: 300px;
+                    height: 100px;
+                    border: 1px solid blue;
+                    box-sizing: border-box;
+                }
                 .infoperso>ul{
                         list-style-type: none;
                     
                 }
-
+                /*all sections*/
+                .conteneur{
+                    width: 60%;
+                    height: 200px;
+                    margin-top: 10px;
+                    background-color: blue;
+                    display: flex;
+                    flex-direction: column;
+                    display: flex;
+                    justify-content: flex-end;
+                }
 
 
                 /*Section Compétence*/
@@ -54,7 +72,17 @@
                          width: 50%;
 		}
                 /*Navbar*/
+                ul{
+                    list-style-type: none;
+                    margin: 10px;
+                }
+                nav{
+                    box-shadow: 10px 10px 5px #888888;
+                }
                 nav>ul{
+                    position: fixed;
+                    top: 0px;
+                    width: 100%;
                     background-color: gold;
                     list-style-type: none;
                     margin: 0;

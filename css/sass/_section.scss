@@ -1,0 +1,62 @@
+/*L'ensemble du site'*/
+                body{	/*Set color the background*/
+			background-color:#AB1D37;
+                        /*Set color the police*/
+			color:gold;
+		}
+                /*All titles*/
+                h1{/*set size police*/
+                    font-size: 72px;
+                    /*set border with 3 pixels and color*/
+                    border-top: 3px solid gold;
+                }
+		h1,h2{	/*Center text*/
+			text-align:center;
+                        /*Set border with*/
+			border-bottom:3px solid gold;
+                        /*Set Police Type*/
+                        font-family: 'Indie Flower', cursive;
+		}
+		.conteneur{
+                    width: 60%;
+                    height: 200px;
+                    margin-top: 10px;
+                    background-color: blue;
+                    display: flex;
+                    flex-direction: column;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+
+
+                /*Section Compétence*/
+		.comp{	/*Set color the background*/
+			
+                        /*Move to the right*/
+			float:right;
+                        width: 45%;
+		}
+
+                /*Section Experience*/
+		.XP{	/*Set color the background*/
+			
+                        /*Move to the left*/
+			float:left;
+                        width: 45%;
+		}
+               
+
+                /*Section Diplôme*/
+		.dip{	/*Set color the background*/
+			
+                        /*Move to the right*/
+			float:right;
+                        width: 45%;
+		}
+                /*Section Loisirs*/
+		.loi{/*Set color the background*/
+                         
+                         /*Move to the left*/
+			 float:left;
+                         width: 45%;
+		}

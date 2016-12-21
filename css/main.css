@@ -36,16 +36,11 @@ nav > ul > li a:hover {
   color: gold; }
 
 .infoperso {
-  /*Set width and height*/
   width: 300px;
   height: 150px;
-  /*Set border*/
   border: 3px solid gold;
-  /*Set box size*/
   box-sizing: border-box;
-  /*Set shadow box*/
   box-shadow: 10px 10px 10px;
-  /*move interior to the top*/
   padding-top: 35px; }
 
 .infoperso > ul {
@@ -78,7 +73,6 @@ h1, h2 {
   width: 60%;
   height: 200px;
   margin-top: 10px;
-  background-color: blue;
   display: flex;
   flex-direction: column;
   display: flex;
